@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Icon+ -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/fa03f03a3a.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" 
+    rel="stylesheet">
+    <title>Cards</title>
+</head>
+<body class="grey lighten-1">
+<div class="container">
+    <h1 class="amber-text">Cards</h1>
+    <div class="row">
+        <div class="col s12 m6">
+<!--Simple card without title-->
+            <div class="card">
+                <div class="card-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Beatae numquam, enim voluptatem debitis velit temporibus 
+                        natus cum repellat impedit similique eveniet recusandae! 
+                        Quidem adipisci tempore est perferendis iusto quam minima.</p>
+                </div>
+            </div>
+            <div class="card red darken-2">
+                <div class="card-content white-text">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Cupiditate fuga nostrum explicabo, nulla adipisci minus laboriosam
+                        labore consectetur tempora maiores maxime numquam repellendus officia.
+                        Mollitia, atque? Explicabo nam consequatur est!</p>
+                </div>
+            </div>
+        </div>   
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-content">
+                    <span>Card with Title</span>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Excepturi, voluptate debitis quam blanditiis voluptates, 
+                        repellat autem dolores voluptatibus provident magni ex voluptas ea, 
+                        quas sit? Fugiat at magni quis sint!</p>
+                </div>
+<!--Add Link-->
+                <div class="card-action">
+                    <a href="grid.html">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image">
+                    <img src="4.jpg" alt="Card Image">
+                    <span class="card-title black-text">Card Title</span>
+                </div>
+                <div class="card-content">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Asperiores quo quidem quaerat quis soluta deserunt iure neque fuga
+                    quisquam quia cumque a sint quos, aliquid totam tempora assumenda quasi id.
+                </div>
+            </div>
+        </div>
+     
+<!--Card with Image & Floating Button  -->
+                <div class="col s12 m6">
+                <div class="card blue-lighten-4">
+                    <div class="card-image">
+                        <img src="2.jpg" alt="">
+                        <span class="card-title white-text">Image and Button</span>
+                        <a href="" class="btn-floating halfway-fab waves-effect waves-light blue">
+                            <i class="material-icons">add</i>
+                        </a>
+                        <div class="card-content green lighten-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam 
+                                quam fugiat a, quo dolorum quaerat neque mollitia libero, autem 
+                                debitis nulla! Praesentium sed dolorum dolores animi vitae aut 
+                                ipsa delectus.</p>
+                                <div class="card-action">
+                                <a href="grid.html">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</div>
+
+<!-- Horizontal Card -->
+<div class="row">
+    <div class="col s12 m6">
+    <div class="card horizontal">
+        <div class="card-image">
+            <img src="3.jpg" alt="">
+        </div>
+            <div class="card-stocked">
+                <div class="card-content">
+                <span class="card-title">Horizontal Card</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, id?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="col s12 m6">
+        <div class="card">
+            <div class="card-image waves-effect waves-light waves-block">
+            <img src="1.jpg" alt="" class="activator" class="height="300px" width="450px">
+            </div>
+        <div class="card-content blue lighten-4">
+            <span class="card-title activator">Card Reveal
+                <i class="material-icons">more_vert</i>
+            </span>
+            <p><a href="#!" class="activator">See More</a></p>
+        </div>
+        <!-- Inside Reveal -->
+        <div class="card-reveal red lighten-4">
+            <span class="card-title">Card Title
+            <i class="material-icons secondary-content">close</i>
+            </span>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Cum totam repellat sunt similique, quibusdam cupiditate pariatur quaerat
+                nemo possimus eveniet dicta sit aliquid quod non suscipit delectus veritatis 
+                quas nam!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col s12 m3">
+        <div class="card-panel teal z-depth-1">
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+            </div>
+        </div>
+        <div class="col s12 m3">
+        <div class="card-panel grey lighten-1 z-depth-1">
+            <span class="black-text">I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+            </div>
+        </div>
+        <div class="col s12 m3">
+                <div class="card-panel green lighten-2 z-depth-1">
+                <span class="black-text">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                </span>
+                </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card-panel orange lighten-2 z-depth-1">
+                <span class="black-text">I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+                </span>
+                </div>
+        </div>
+    </div>
+</div>
+<script 
+    src="https://code.jquery.com/jquery-3.5.1.min.js" 
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+    crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+</body>
+</html>
